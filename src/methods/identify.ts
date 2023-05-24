@@ -13,5 +13,6 @@ function getAttributes(traits: UserTraits | undefined): {[key: string]: string} 
   return attributes;
 }
 export default (event: IdentifyEventType) => {
-  Sprig.setVisitorAttributesAndIdentify(getAttributes(event.traits), event.userId, event.anonymousId);
+  const userId = typeof(event.userId) === 'string' ? event.userId : undefined;
+  Sprig.setVisitorAttributesAndIdentify(getAttributes(event.traits), userId, event.anonymousId);
 };

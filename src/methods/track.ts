@@ -12,13 +12,15 @@ function getProperties(properties: JsonMap): {[key: string]: any} {
 }
 
 export default (event: TrackEventType) => {
+  if (typeof(event.event) !== 'string') return;
   if (event.event === SIGN_OUT_EVENT) {
     Sprig.logout();
   } else {
-    if (Object.keys(event.properties!).length)
+    const userId = typeof(event.userId) === 'string' ? event.userId : undefined;
+    if (Object.keys(event.properties!).length) {
       Sprig.trackWithProperties(
         event.event,
-        event.userId,
+        userId,
         event.anonymousId,
         getProperties(event.properties!),
         (state: string) => {
@@ -27,11 +29,12 @@ export default (event: TrackEventType) => {
           }
         }
       );
-    else
+    } else {
       Sprig.trackIdentifyAndPresent(
         event.event,
-        event.userId,
+        userId,
         event.anonymousId
       );
+    }
   }
 };
