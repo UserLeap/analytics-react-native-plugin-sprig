@@ -44,7 +44,7 @@
     "@segment/analytics-react-native": "*"
   },
   "dependencies": {
-    "react-native-userleap": "2.14.1"
+    "react-native-userleap": "2.15.2"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.1",
