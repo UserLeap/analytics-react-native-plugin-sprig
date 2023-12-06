@@ -5,11 +5,13 @@ import {
   TrackEventType,
   UpdateType,
   SegmentAPISettings,
+  ScreenEventType,
 } from '@segment/analytics-react-native';
 import type { SegmentSprigSettings } from './types';
 import Sprig from 'react-native-userleap';
 import identify from './methods/identify';
 import track from './methods/track';
+import screen from './methods/screen';
 
 export class SprigPlugin extends DestinationPlugin {
   type = PluginType.destination;
@@ -40,6 +42,11 @@ export class SprigPlugin extends DestinationPlugin {
   track(event: TrackEventType) {
     track(event);
     return event;
+  }
+
+  screen(event: ScreenEventType) {
+    screen(event);
+    return event
   }
   
   reset() {
