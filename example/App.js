@@ -53,7 +53,7 @@ const App: () => Node = () => {
   const isDarkMode = useColorScheme() === "dark";
 
   const segmentClient = createClient({
-    writeKey: 'hN2Qw26IJPLouXrHDIy3BoaGwFSV6kUr',
+    writeKey: '<SEGMENT_WRITE_KEY>',
     trackAppLifecycleEvents: true,
     defaultSettings: true,
   });
