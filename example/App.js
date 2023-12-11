@@ -53,7 +53,7 @@ const App: () => Node = () => {
   const isDarkMode = useColorScheme() === "dark";
 
   const segmentClient = createClient({
-    writeKey: 'YOUR_SEGMENT_WRITE_KEY_HERE',
+    writeKey: '<SEGMENT_WRITE_KEY>',
     trackAppLifecycleEvents: true,
     defaultSettings: true,
   });
@@ -83,7 +83,7 @@ const App: () => Node = () => {
               <View style={styles.sectionDescription}>
                 <TouchableOpacity
                   onPress={() => {
-                    segmentClient.track("YOUR_SPRIG_SURVEY_EVENT");
+                    segmentClient.track("mobiletext");
                   }}
                 >
                   <Text>Send event</Text>
@@ -102,7 +102,22 @@ const App: () => Node = () => {
                     });
                   }}
                 >
-                  <Text>Send event with properties</Text>
+                  <Text>Send track event with properties</Text>
+                </TouchableOpacity>
+              </View>
+            </View>
+            <View style={styles.sectionContainer}>
+              <Text style={styles.sectionTitle}>Screen</Text>
+              <View style={styles.sectionDescription}>
+                <TouchableOpacity
+                  onPress={() => {
+                    segmentClient.screen("React Native Segment Screen", {
+                      segmentActionsReactNative: true,
+                      deviceType: "reactNative"
+                    });
+                  }}
+                >
+                  <Text>Send screen event with properties</Text>
                 </TouchableOpacity>
               </View>
             </View>
