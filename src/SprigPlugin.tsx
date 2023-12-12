@@ -6,12 +6,12 @@ import {
   UpdateType,
   SegmentAPISettings,
   ScreenEventType,
+  JsonMap,
 } from '@segment/analytics-react-native';
 import type { SegmentSprigSettings } from './types';
 import Sprig from 'react-native-userleap';
 import identify from './methods/identify';
 import track from './methods/track';
-import screen from './methods/screen';
 
 export class SprigPlugin extends DestinationPlugin {
   type = PluginType.destination;
@@ -45,7 +45,9 @@ export class SprigPlugin extends DestinationPlugin {
   }
 
   screen(event: ScreenEventType) {
-    screen(event);
+    let trackEvent = event as any;
+    delete Object.assign(trackEvent, {["event"]: trackEvent["name"] })["name"];
+    track(trackEvent as TrackEventType);
     return event
   }
   
