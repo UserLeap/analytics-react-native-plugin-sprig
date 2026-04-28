@@ -23,7 +23,7 @@ import {
   Colors,
   Header,
   LearnMoreLinks,
-} from "react-native/Libraries/NewAppScreen";
+} from "@react-native/new-app-screen";
 import { createClient } from "@segment/analytics-react-native";
 import { SprigPlugin } from "@sprig-technologies/analytics-react-native-plugin-sprig";
 

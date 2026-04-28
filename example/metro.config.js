@@ -1,17 +1,13 @@
-/**
- * Metro configuration for React Native
- * https://github.com/facebook/react-native
- *
- * @format
- */
+const { getDefaultConfig, mergeConfig } = require('@react-native/metro-config');
 
-module.exports = {
-  transformer: {
-    getTransformOptions: async () => ({
-      transform: {
-        experimentalImportSupport: false,
-        inlineRequires: true,
-      },
-    }),
-  },
+/**
+ * Metro configuration
+ * https://reactnative.dev
+ *
+ * @type {import('metro-config').MetroConfig}
+ */
+const config = {
+  // Add any custom transformer or resolver settings here if needed
 };
+
+module.exports = mergeConfig(getDefaultConfig(__dirname), config);
