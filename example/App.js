@@ -140,7 +140,6 @@ const App: () => Node = () => {
               </View>
             </View>
           </View>
-          <LearnMoreLinks />
         </View>
       </ScrollView>
     </SafeAreaView>
