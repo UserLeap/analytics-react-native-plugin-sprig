@@ -19,13 +19,16 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-import {
-  Colors,
-  Header,
-  LearnMoreLinks,
-} from "@react-native/new-app-screen";
+
 import { createClient } from "@segment/analytics-react-native";
 import { SprigPlugin } from "@sprig-technologies/analytics-react-native-plugin-sprig";
+
+const SprigColors = {
+  darker: '#222',
+  lighter: '#f3f3f3',
+  white: '#FFF',
+  black: '#000',
+};
 
 const Section = ({ children, title }): Node => {
   const isDarkMode = useColorScheme() === "dark";
@@ -37,7 +40,7 @@ const Section = ({ children, title }): Node => {
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}
         >
-          <Header />
+          
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
               <Text style={styles.footer}>Engine: Hermes</Text>
@@ -61,7 +64,7 @@ const App: () => Node = () => {
   segmentClient.add({ plugin: plugin });
 
   const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
+    backgroundColor: isDarkMode ? SprigColors.darker : SprigColors.lighter,
   };
 
   return (
@@ -71,10 +74,10 @@ const App: () => Node = () => {
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}
       >
-        <Header />
+
         <View
           style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
+            backgroundColor: isDarkMode ? SprigColors.black : SprigColors.white,
           }}
         >
           <View style={styles.body}>
