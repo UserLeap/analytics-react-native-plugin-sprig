@@ -1,11 +1,11 @@
 import {
   DestinationPlugin,
-  IdentifyEventType,
+  type IdentifyEventType,
   PluginType,
-  TrackEventType,
+  type TrackEventType,
   UpdateType,
-  SegmentAPISettings,
-  ScreenEventType,
+  type SegmentAPISettings,
+  type ScreenEventType,
 } from '@segment/analytics-react-native';
 import type { SegmentSprigSettings } from './types';
 import Sprig from 'react-native-userleap';
