@@ -11,10 +11,10 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2C99D688EFFB00EA2F570698 /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27884D444C96D6FED2BA051B /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a */; };
-		6AC6BC1AE87E7F32A52E4198 /* libPods-ReactNativeTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F04884C5FF3976EDEEEC64 /* libPods-ReactNativeTestApp.a */; };
+		40064A661532440DCD27F436 /* libPods-ReactNativeTestApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36FA7A4F8AC16FDF8D16E52D /* libPods-ReactNativeTestApp.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B364A9A3B4503C13D5C92CB9 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 20E9BD200F6BDFDE89C9A1B1 /* PrivacyInfo.xcprivacy */; };
+		C700FB43ECF1571B82E76CAB /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE94A638248CAE310F89B4E /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +37,14 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeTestApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeTestApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeTestApp/main.m; sourceTree = "<group>"; };
+		164E693097BBE248475F58CA /* Pods-ReactNativeTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp.release.xcconfig"; sourceTree = "<group>"; };
 		20E9BD200F6BDFDE89C9A1B1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = ReactNativeTestApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		27884D444C96D6FED2BA051B /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTestApp-ReactNativeTestAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F41286BADDF8B992601B0B5 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D3C0FD1F09E4D05BB9BF9DA /* Pods-ReactNativeTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp.release.xcconfig"; sourceTree = "<group>"; };
-		58B2157310274616B064AAEB /* Pods-ReactNativeTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp.debug.xcconfig"; sourceTree = "<group>"; };
-		66F04884C5FF3976EDEEEC64 /* libPods-ReactNativeTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36FA7A4F8AC16FDF8D16E52D /* libPods-ReactNativeTestApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTestApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeTestApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		915F0D6AA1DD3BC572DB3054 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		B48CFBFBCFFDB8DE7214FFD1 /* Pods-ReactNativeTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BC13522A5BD3F37E84223A65 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE94A638248CAE310F89B4E /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeTestApp-ReactNativeTestAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1D41007059069EDB9D8EEF2 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -53,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C99D688EFFB00EA2F570698 /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a in Frameworks */,
+				C700FB43ECF1571B82E76CAB /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AC6BC1AE87E7F32A52E4198 /* libPods-ReactNativeTestApp.a in Frameworks */,
+				40064A661532440DCD27F436 /* libPods-ReactNativeTestApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				66F04884C5FF3976EDEEEC64 /* libPods-ReactNativeTestApp.a */,
-				27884D444C96D6FED2BA051B /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a */,
+				36FA7A4F8AC16FDF8D16E52D /* libPods-ReactNativeTestApp.a */,
+				BCE94A638248CAE310F89B4E /* libPods-ReactNativeTestApp-ReactNativeTestAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -143,10 +143,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				58B2157310274616B064AAEB /* Pods-ReactNativeTestApp.debug.xcconfig */,
-				3D3C0FD1F09E4D05BB9BF9DA /* Pods-ReactNativeTestApp.release.xcconfig */,
-				2F41286BADDF8B992601B0B5 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig */,
-				915F0D6AA1DD3BC572DB3054 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig */,
+				B48CFBFBCFFDB8DE7214FFD1 /* Pods-ReactNativeTestApp.debug.xcconfig */,
+				164E693097BBE248475F58CA /* Pods-ReactNativeTestApp.release.xcconfig */,
+				D1D41007059069EDB9D8EEF2 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig */,
+				BC13522A5BD3F37E84223A65 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -158,12 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeTestAppTests" */;
 			buildPhases = (
-				57BD1E9529B176AEB65F0847 /* [CP] Check Pods Manifest.lock */,
+				279482560D5F70CAACEB26DC /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				BFB71FCA62A3318A14A16EF2 /* [CP] Embed Pods Frameworks */,
-				4E1F880980D60EEB6FB23249 /* [CP] Copy Pods Resources */,
+				30BA28698B085E174E89924E /* [CP] Embed Pods Frameworks */,
+				521B91E2751A3F0D58F36E56 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,14 +179,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeTestApp" */;
 			buildPhases = (
-				85AB9711EB19BAEE3A506108 /* [CP] Check Pods Manifest.lock */,
+				703A025F66B7A8BE9CEC0A19 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				6A886F876FAC36A9A4E2E046 /* [CP] Embed Pods Frameworks */,
-				687FFED72FB3388EEC3CA50E /* [CP] Copy Pods Resources */,
+				426AD9A14119B65F0FACDE6A /* [CP] Embed Pods Frameworks */,
+				17C883E4E19CDC4FEF818CE3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,24 +270,28 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		4E1F880980D60EEB6FB23249 /* [CP] Copy Pods Resources */ = {
+		17C883E4E19CDC4FEF818CE3 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		57BD1E9529B176AEB65F0847 /* [CP] Check Pods Manifest.lock */ = {
+		279482560D5F70CAACEB26DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -309,24 +313,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		687FFED72FB3388EEC3CA50E /* [CP] Copy Pods Resources */ = {
+		30BA28698B085E174E89924E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6A886F876FAC36A9A4E2E046 /* [CP] Embed Pods Frameworks */ = {
+		426AD9A14119B65F0FACDE6A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -334,16 +342,41 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp/Pods-ReactNativeTestApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		85AB9711EB19BAEE3A506108 /* [CP] Check Pods Manifest.lock */ = {
+		521B91E2751A3F0D58F36E56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		703A025F66B7A8BE9CEC0A19 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,23 +396,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BFB71FCA62A3318A14A16EF2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeTestApp-ReactNativeTestAppTests/Pods-ReactNativeTestApp-ReactNativeTestAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -434,7 +450,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F41286BADDF8B992601B0B5 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig */;
+			baseConfigurationReference = D1D41007059069EDB9D8EEF2 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -461,7 +477,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 915F0D6AA1DD3BC572DB3054 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig */;
+			baseConfigurationReference = BC13522A5BD3F37E84223A65 /* Pods-ReactNativeTestApp-ReactNativeTestAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -485,7 +501,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58B2157310274616B064AAEB /* Pods-ReactNativeTestApp.debug.xcconfig */;
+			baseConfigurationReference = B48CFBFBCFFDB8DE7214FFD1 /* Pods-ReactNativeTestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -493,6 +509,7 @@
 				DEVELOPMENT_TEAM = 3C7Q4NT549;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ReactNativeTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,13 +534,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D3C0FD1F09E4D05BB9BF9DA /* Pods-ReactNativeTestApp.release.xcconfig */;
+			baseConfigurationReference = 164E693097BBE248475F58CA /* Pods-ReactNativeTestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3C7Q4NT549;
 				INFOPLIST_FILE = ReactNativeTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
