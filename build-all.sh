@@ -1,10 +1,7 @@
-echo "Cleaning pods, node modules, etc......."
-bash cleanForRebuild.sh
-
-echo "Cleaning root node modules"
+echo "Cleaning root node modules and lock files"
 rm -rf node_modules yarn.lock package-lock.json
 
-echo "Cleaning example node modules"
+echo "Cleaning example node modules and lock files"
 cd example
 rm -rf node_modules yarn.lock package-lock.json
 
