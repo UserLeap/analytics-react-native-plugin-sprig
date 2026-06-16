@@ -16,7 +16,7 @@
     "@sprig-technologies/analytics-react-native-plugin-sprig": "file:../",
     "react": "19.1.0",
     "react-native": "0.81.0",
-    "react-native-userleap": "3.2.0",
+    "react-native-userleap": "3.2.1",
      "@react-native/new-app-screen": "0.81.1",
      "@react-native/assets-registry": "^0.81.0"
   },
