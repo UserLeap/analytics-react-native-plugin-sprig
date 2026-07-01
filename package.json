@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@segment/analytics-react-native": "^2.22.0",
-    "react-native-userleap": "^3.3.0"
+    "react-native-userleap": "^4.0.0"
   },
   "devDependencies": {
     "@react-native-community/cli": "latest",
