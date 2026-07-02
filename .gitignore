@@ -72,3 +72,4 @@ coverage/
 
 # Typescript
 tsconfig.tsbuildinfo
+example/ios/Podfile.lock
