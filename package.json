@@ -1,6 +1,6 @@
 {
   "name": "@sprig-technologies/analytics-react-native-plugin-sprig",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "The hassle-free way to add Segment analytics Sprig plugin to your React-Native app.",
   "main": "lib/commonjs/index.js",
   "scripts": {
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@segment/analytics-react-native": "^2.22.0",
-    "react-native-userleap": "^4.0.0"
+    "react-native-userleap": "^4.1.0"
   },
   "devDependencies": {
     "@react-native-community/cli": "latest",
